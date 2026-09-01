@@ -1,0 +1,35 @@
+{
+  "id": "survival_menu",
+  "title": "§l§dSurvival Oyunları",
+  "description": "§7Survival moduna katılmak için bir oyun seçin.",
+  "buttons": [
+    {
+      "text": "§aZor: Sahara Çölü",
+      "action": "command",
+      "data": {
+        "command": "survival join sahara"
+      }
+    },
+    {
+      "text": "§bZor: Buz Bikaresi",
+      "action": "command",
+      "data": {
+        "command": "survival join arctic"
+      }
+    },
+    {
+      "text": "§cZor: Lav Adaları",
+      "action": "command",
+      "data": {
+        "command": "survival join lava"
+      }
+    },
+    {
+      "text": "§8← Geri Dön",
+      "action": "menu",
+      "data": {
+        "menu_id": "combat_menu"
+      }
+    }
+  ]
+}

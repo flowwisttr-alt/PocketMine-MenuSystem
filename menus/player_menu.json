@@ -1,0 +1,35 @@
+{
+  "id": "player_menu",
+  "title": "§l§aOyuncu Menüsü",
+  "description": "§7Oyuncu işlemlerini yapabilirsiniz.",
+  "buttons": [
+    {
+      "text": "§6Envanterini Göster",
+      "action": "command",
+      "data": {
+        "command": "inv"
+      }
+    },
+    {
+      "text": "§bOyuncu Profili",
+      "action": "message",
+      "data": {
+        "message": "§7Oyuncu Adı: §a{name}\n§7Düzey: §a{level}\n§7Deneyim: §a{exp}"
+      }
+    },
+    {
+      "text": "§cSağlık Durumu",
+      "action": "message",
+      "data": {
+        "message": "§7Sağlığınız: §c{health}/20"
+      }
+    },
+    {
+      "text": "§8← Geri Dön",
+      "action": "menu",
+      "data": {
+        "menu_id": "main_menu"
+      }
+    }
+  ]
+}

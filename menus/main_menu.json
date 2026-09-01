@@ -1,0 +1,35 @@
+{
+  "id": "main_menu",
+  "title": "§l§6Ana Menü",
+  "description": "§7Hoş geldiniz! Aşağıdan bir seçenek seçiniz.",
+  "buttons": [
+    {
+      "text": "§a✔ Oyuncu Menüsü",
+      "action": "menu",
+      "data": {
+        "menu_id": "player_menu"
+      }
+    },
+    {
+      "text": "§b✦ Savaş Menüsü",
+      "action": "menu",
+      "data": {
+        "menu_id": "combat_menu"
+      }
+    },
+    {
+      "text": "§c♨ İstatistikler",
+      "action": "menu",
+      "data": {
+        "menu_id": "stats_menu"
+      }
+    },
+    {
+      "text": "§e⚙ Ayarlar",
+      "action": "menu",
+      "data": {
+        "menu_id": "settings_menu"
+      }
+    }
+  ]
+}

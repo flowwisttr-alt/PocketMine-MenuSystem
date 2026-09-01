@@ -1,0 +1,42 @@
+{
+  "id": "stats_menu",
+  "title": "§l§9İstatistikler",
+  "description": "§7Oyun istatistiklerinizi görüntüleyin.",
+  "buttons": [
+    {
+      "text": "§aKatılma Tarihi",
+      "action": "message",
+      "data": {
+        "message": "§7Sunucuya katıldığınız tarih: §a2024-01-15"
+      }
+    },
+    {
+      "text": "§bOynanış Süresi",
+      "action": "message",
+      "data": {
+        "message": "§7Toplam oynanış süresi: §b125 saat 45 dakika"
+      }
+    },
+    {
+      "text": "§cKazanılan Para",
+      "action": "message",
+      "data": {
+        "message": "§7Toplam kazanılan para: §c$5,250"
+      }
+    },
+    {
+      "text": "§dÖldürülen Düşman",
+      "action": "message",
+      "data": {
+        "message": "§7Toplam öldürülen düşman: §d542"
+      }
+    },
+    {
+      "text": "§8← Geri Dön",
+      "action": "menu",
+      "data": {
+        "menu_id": "main_menu"
+      }
+    }
+  ]
+}

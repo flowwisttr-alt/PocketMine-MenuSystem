@@ -1,0 +1,35 @@
+{
+  "id": "combat_menu",
+  "title": "§l§cSavaş Menüsü",
+  "description": "§7Savaş ile ilgili seçenekler.",
+  "buttons": [
+    {
+      "text": "§aPvP Arena",
+      "action": "command",
+      "data": {
+        "command": "pvp join"
+      }
+    },
+    {
+      "text": "§bDeathmatch",
+      "action": "command",
+      "data": {
+        "command": "dm join"
+      }
+    },
+    {
+      "text": "§eSurvival Oyunu",
+      "action": "menu",
+      "data": {
+        "menu_id": "survival_menu"
+      }
+    },
+    {
+      "text": "§8← Geri Dön",
+      "action": "menu",
+      "data": {
+        "menu_id": "main_menu"
+      }
+    }
+  ]
+}

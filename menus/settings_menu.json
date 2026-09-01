@@ -1,0 +1,42 @@
+{
+  "id": "settings_menu",
+  "title": "§l§eAyarlar",
+  "description": "§7Kişisel ayarlarınızı yönetin.",
+  "buttons": [
+    {
+      "text": "§aSes Ayarları",
+      "action": "message",
+      "data": {
+        "message": "§7Ses: §aAçık (§c/ses kapat§a)"
+      }
+    },
+    {
+      "text": "§bDil Seçimi",
+      "action": "message",
+      "data": {
+        "message": "§7Mevcut Dil: §bTürkçe"
+      }
+    },
+    {
+      "text": "§cDaki Mod",
+      "action": "message",
+      "data": {
+        "message": "§7Görünüm: §aAçık (§c/tema değiştir§a)"
+      }
+    },
+    {
+      "text": "§dGizlilik Ayarları",
+      "action": "command",
+      "data": {
+        "command": "privacy"
+      }
+    },
+    {
+      "text": "§8← Geri Dön",
+      "action": "menu",
+      "data": {
+        "menu_id": "main_menu"
+      }
+    }
+  ]
+}
