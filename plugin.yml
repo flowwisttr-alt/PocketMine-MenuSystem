@@ -1,0 +1,11 @@
+name: MenuSystem
+main: MenuSystem\MenuSystemPlugin
+version: 1.0.0
+description: Özel JSON Menu Sistemi - PocketMine-MP
+authors:
+  - flowwisttr-alt
+api: 5.0.0
+permissions:
+  menusystem.command:
+    description: "Menu komutuna erişim"
+    default: true
