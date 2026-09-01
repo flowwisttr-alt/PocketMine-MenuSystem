@@ -1,0 +1,136 @@
+{
+  "namespace": "menusystem",
+  "menusystem.main_menu": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "controls": [
+      {
+        "title_text": {
+          "type": "label",
+          "text": "§l§6🌟 Ana Men�� 🌟",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": ["100%", 30],
+          "offset": [0, 10]
+        }
+      },
+      {
+        "description_text": {
+          "type": "label",
+          "text": "§7Hoş geldiniz! Aşağıdan bir seçenek seçiniz.",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": ["90%", 20],
+          "offset": [0, 45]
+        }
+      },
+      {
+        "menu_buttons": {
+          "type": "stack_panel",
+          "size": ["90%", "70%"],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "orientation": "vertical",
+          "controls": [
+            {
+              "button_1": {
+                "type": "button",
+                "text": "§a🚀 Oyuncu Menüsü",
+                "size": ["100%", 40]
+              }
+            },
+            {
+              "button_2": {
+                "type": "button",
+                "text": "§b⚔ Savaş Menüsü",
+                "size": ["100%", 40]
+              }
+            },
+            {
+              "button_3": {
+                "type": "button",
+                "text": "§d✓ Yapılacak Listesi",
+                "size": ["100%", 40]
+              }
+            },
+            {
+              "button_4": {
+                "type": "button",
+                "text": "§c📊 İstatistikler",
+                "size": ["100%", 40]
+              }
+            },
+            {
+              "button_5": {
+                "type": "button",
+                "text": "§e⚙ Ayarlar",
+                "size": ["100%", 40]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "menusystem.todo_menu": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "controls": [
+      {
+        "title_text": {
+          "type": "label",
+          "text": "§l§d✓ Yapılacaklar Listesi",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": ["100%", 30],
+          "offset": [0, 10]
+        }
+      },
+      {
+        "description_text": {
+          "type": "label",
+          "text": "§7Görevlerinizi yönetin ve takip edin!",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": ["90%", 20],
+          "offset": [0, 45]
+        }
+      },
+      {
+        "todos_list": {
+          "type": "scroll_view",
+          "size": ["90%", "60%"],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, 5]
+        }
+      },
+      {
+        "buttons_panel": {
+          "type": "stack_panel",
+          "size": ["90%", "15%"],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "offset": [0, -10],
+          "orientation": "horizontal",
+          "controls": [
+            {
+              "view_button": {
+                "type": "button",
+                "text": "§6✓ Görevlerim",
+                "size": ["48%", 40]
+              }
+            },
+            {
+              "add_button": {
+                "type": "button",
+                "text": "§a+ Yeni Ekle",
+                "size": ["48%", 40]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

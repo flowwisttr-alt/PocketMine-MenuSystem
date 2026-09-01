@@ -1,0 +1,25 @@
+{
+  "texture_data": {
+    "menu_background": {
+      "textures": ["textures/ui/menu_bg"]
+    },
+    "button_normal": {
+      "textures": ["textures/ui/button_normal"]
+    },
+    "button_hover": {
+      "textures": ["textures/ui/button_hover"]
+    },
+    "button_pressed": {
+      "textures": ["textures/ui/button_pressed"]
+    },
+    "todo_background": {
+      "textures": ["textures/ui/todo_bg"]
+    },
+    "todo_item_completed": {
+      "textures": ["textures/ui/todo_completed"]
+    },
+    "todo_item_pending": {
+      "textures": ["textures/ui/todo_pending"]
+    }
+  }
+}

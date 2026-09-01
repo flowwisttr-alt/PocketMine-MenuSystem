@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "PocketMine MenuSystem Özel Ressource Pack",
+    "name": "MenuSystem Pack",
+    "uuid": "d3dd9c0c-d7c4-11eb-8249-0242ac130003",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Özel Doku ve Arayüz",
+      "type": "resources",
+      "uuid": "d3dd9f00-d7c4-11eb-8249-0242ac130003",
+      "version": [1, 0, 0]
+    }
+  ]
+}
